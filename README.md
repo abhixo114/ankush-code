@@ -1,2 +1,33 @@
 # ankush-code
 node.js code 
+- config/
+  - db.js
+- controllers/
+  - authController.js
+  - studentController.js
+  - interviewController.js
+- models/
+  - User.js
+  - Student.js
+  - Interview.js
+- public/
+  - css/
+  - js/
+- routes/
+  - index.js
+  - authRoutes.js
+  - studentRoutes.js
+  - interviewRoutes.js
+- views/
+  - auth/
+    - login.ejs
+    - signup.ejs
+  - student/
+    - index.ejs
+    - new.ejs
+  - interview/
+    - index.ejs
+    - new.ejs
+- app.js
+- package.json
+- README.md
